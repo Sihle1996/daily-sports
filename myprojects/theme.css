@@ -1,0 +1,58 @@
+body{
+  background-color: whitesmoke;
+}
+
+.navbar-container{
+  background-color: aliceblue;
+}
+.total {
+
+  color: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+.sidebar{
+  background-color:aliceblue ;
+  position: fixed;
+  left: -250px;
+  top: 0;
+  height: 100vh;
+  width: 200px;
+  transition: left 0.7s ease;
+  
+}
+.sidebar ul  {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar ul li a{
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.sidebar li:hover{
+  background-color: rgb(226, 206, 206);
+  padding: 8px;
+  transition: 0.17s ease;
+}
+.menu{
+  position: absolute;
+  top: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  height: 30px;
+  cursor: pointer;
+}
+.top-stories{
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin-bottom: 9px;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,49 @@
+.league1-image{
+  width: 140px;
+  
+}
+
+.league1-image-container{
+  display: ;
+  vertical-align: ;
+
+}
+
+.league1{
+  background-image: url(images/leagueone.png);
+  margin-bottom: 4px;
+  height: 210px;
+
+  
+}
+
+.league1news  {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+  overflow: scroll;
+  
+  
+ }
+ 
+ .mbappe-news{
+   font-weight: bold;
+   margin-top: 0;
+   padding: 10px;
+   
+ }
+ .neymar-news{
+   font-weight: bold;
+   background-color: ;
+   padding: 15px;
+   margin-top: 0;
+ }
+ .messi-news{
+   font-weight: bold;
+   margin-top: 0;
+   padding: 10px;
+ }
+ .news-neymar-description{
+  background-color: aliceblue;
+ 
+ }

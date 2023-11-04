@@ -1,0 +1,58 @@
+.basketball-image{
+  width: 373px;
+  
+}
+
+.basketball{
+  background-image: url(images/basketball/images.jpeg);
+  background-position: center;
+  margin-bottom: 4px;
+  height: 210px;
+
+  
+}
+.text{
+  background-color: pink;
+  padding: 15px;
+  text-align: center; 
+  margin-top: 0;
+}
+
+
+.basketball-news{
+  display: grid; 
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  column-gap: 5px;
+  overflow: scroll;
+  
+  
+ }
+ .neymar{
+   width: 300px;
+ }
+ .mbappe{
+   width: 300px;
+ }
+ .messi-arg{
+   width: 381px;
+ }
+ .mbappe-news{
+   font-weight: bold;
+   margin-top: 0;
+   padding: 10px;
+ }
+ .neymar-news{
+   font-weight: bold;
+   background-color: ;
+   padding: 15px;
+   margin-top: 0;
+ }
+ .messi-news{
+   font-weight: bold;
+   margin-top: 0;
+   padding: 10px;
+ }
+ .news-neymar-description{
+  background-color: ;
+ 
+ }

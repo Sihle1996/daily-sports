@@ -1,0 +1,53 @@
+.premierleague-news {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+  overflow: scroll;
+}
+
+.premier-image{
+  width: 310px;
+  
+}
+
+.league1-image-container{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.premier-league-block{
+  
+  background-image: url(images/premierleague.png);
+  background-position: center;
+  margin-bottom: 5px;
+  
+}
+
+.mancity{
+  width: 300px;
+}
+.havarts{
+  width: 300px;
+}
+.porchettino{
+  width: 300px;
+}
+.mancity-news{
+  font-weight: bold;
+  margin-top: 0;
+  padding: 10px;
+}
+.chelsea-news{
+  font-weight: bold;
+  background-color: ;
+  padding: 15px;
+  margin-top: 0;
+}
+.porchettino-news{
+  font-weight: bold;
+  margin-top: 0;
+  padding: 10px;
+}
+.neymar-container{
+
+}
